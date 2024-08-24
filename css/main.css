@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: GL, sans-serif;
+}
+
+@font-face {
+  font-family: GR;
+  src: url(../assest/fons/Galien\ Regular.ttf);
+}
+@font-face {
+  font-family: GL;
+  src: url(../assest/fons/Gilroy-Light.otf);
+}
