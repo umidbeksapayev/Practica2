@@ -12,3 +12,52 @@
   font-family: GL;
   src: url(../assest/fons/Gilroy-Light.otf);
 }
+
+
+/* general scc */
+
+.btn {
+  padding: 0.75rem 2.25rem;
+  background-color: #5A98D0;
+  color: #fff;
+  border: 2px solid #5A98D0;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  box-shadow: 3px 3px 3px #4d87ba;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #5A98D0;
+}
+
+
+
+/* nav satrted */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 2rem;
+}
+.menu li a {
+  text-decoration: none;
+  color:#4d87ba;
+  font-weight: bold;
+}
+.logo {
+  cursor: pointer;
+}
