@@ -61,3 +61,106 @@ nav {
 .logo {
   cursor: pointer;
 }
+
+
+
+
+
+
+/* header stared */
+
+header h1 {
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  color: #395f81;
+  letter-spacing: 2px;
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  padding: 2rem 2rem 5rem 15rem;
+  align-items: center;
+  font-family: GR, sans-serif;
+}
+
+.right p {
+  margin: 3rem 2rem 3rem 0;
+  line-height: 1.5rem;
+  opacity: 0.7;
+  width: 27rem;
+}
+
+
+/* about  */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 8rem 8rem 15rem ;
+
+}
+
+.about-right{
+  width: 40%;
+}
+.about-left{
+  width: 50%;
+}
+.about-left .about_item {
+  width: 60%;
+}
+.about_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  box-shadow: 0 4px 4px  rgb(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+
+.about-right .about_item:first-child{
+  margin-bottom: 6rem;
+
+}
+.about-left .about_item{
+  margin-top: 15rem;
+  margin-left: 7rem;
+}
+
+.about_item_text h3{
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #395f81;
+  margin: 2rem 0;
+  line-height: 150%;
+}
+.about_item_text p {
+  letter-spacing: 2px;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+.about_item_text p:last-child {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.about-left h2 {
+  letter-spacing: 2px;
+  line-height: 150%;
+  width: 45%;
+  color:#0f74cc;
+}
+
+.about_item_text a{
+  text-decoration: none;
+  color:#0f74cc;
+  font-weight: 900;
+}
+
+.about_item_text span img {
+  position: absolute;
+  margin-left: 2rem;
+}
+
