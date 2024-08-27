@@ -134,6 +134,35 @@
   margin: 0 1.5rem;
 }
 
+.dd {
+  display: flex;
+  justify-content: end;
+}
 
 
+.do {
+  display: flex;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  /* flex-direction: column; */
+}
 
+.articl {
+  margin: 0 0 2rem 2rem;
+}
+.articl p{
+  margin: 2rem 0;
+  letter-spacing: 0.09rem;
+  line-height: 150%;
+  width: 100%;
+
+}
+
+.articl h2{
+  font-size: 1.7rem;
+  color: rgb(7, 7, 110);
+}
+
+.articl .past {
+  width: 40%;
+}
