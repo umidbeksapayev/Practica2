@@ -6,6 +6,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/blog.css" />
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
   <nav>
@@ -17,7 +19,7 @@
         <li><a href="../index.html">home</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">contact</a></li>
-        <li><a href="./pages/blog.html">blog</a></li>
+        <li><a href="../pages/blog.html ">blog</a></li>
       </ul>
     </div>
   </nav>
@@ -27,10 +29,10 @@
   </div>
 
   <div class="contact_main contenier">
-    <div class="lefc">
+    <div class="leftc">
       <img src="../assest/images/contact_illus.svg" alt="">
       <div class="contact_text">
-        <h3>ADDRESS</h3>
+        <h3 class="add">ADDRESS</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
       </div>
       <div class="contact_text">
@@ -45,7 +47,7 @@
         </p>
       </div>
       <div class="contact_text">
-        <h3>ONLINE service</h3>
+        <h3>ONLINE SERVICE</h3>
         <p>
           <img src="../assest/images/earth.svg" alt="df">
           <a href="#">www.afrianska.com</a>
@@ -57,7 +59,7 @@
       </div>
     </div>
     <div class="rightc">
-      <h1>SEND US MESSAGE</h1>
+      <h1 class="">SEND US MESSAGE</h1>
       <form action="#" method="post">
         <div class="form_group">
           <label for="fullname">Fullname</label>
@@ -69,11 +71,80 @@
         </div>
         <div class="form_group">
           <label for="message">Message</label>
-          <input type="text" id="maesage" placeholder="message">
+          <textarea type="text" id="maesage" placeholder="message" rows="6"></textarea>
         </div>
+        <button class="btn">submit</button>
       </form>
     </div>
   </div>
+  <div class="map contenier">
+    <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95925.51709077595!2d69.2649984!3d41.2942336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef7e2f1d90e45%3A0x24e3caaa0efb6eb!2z0JDRjdGA0L7Qv9C-0YDRgg!5e0!3m2!1sru!2s!4v1656308804295!5m2!1sru!2s"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+  </div>
+
+  <footer>
+    <div class="footer_wrapper">
+      <div class="left_item">
+        <div class="text_item">
+          <h2>
+            Intersted to woek <br />
+            with our team?
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam.
+          </p>
+        </div>
+        <button class="btn">Let's Talk</button>
+      </div>
+      <div class="line"></div>
+      <div class="left_down_item">
+        <div class="about_contact">
+          <p><img src="./assest/images/Group.svg" alt="Logo" /></p>
+          <h2>Afrianska</h2>
+          <ul class="logo_column_list">
+            <li>A.</li>
+            <li>T.</li>
+            <li>E.</li>
+          </ul>
+          <ul class="contact_list">
+            <li>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipisicing elit.
+            </li>
+            <li>+62-812-7313-4321</li>
+            <li>hello.afrian@gmail.com</li>
+          </ul>
+        </div>
+        <div class="about_us">
+          <h2>About US</h2>
+          <ul class="about_list">
+            <li><a href="">About</a></li>
+            <li><a href="">What We Do</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">How It Work With Us</a></li>
+          </ul>
+        </div>
+        <div class="right_down_item">
+          <h2>Follow US</h2>
+          <ul class="about_list">
+            <li><a href="/">Instagram</a></li>
+            <li><a href="/">Facebook</a></li>
+            <li><a href="/">LinkedIn</a></li>
+            <li><a href="/">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <p style="opacity: 0.4">© Afrianska. All rights reserved.</p>
+      <br />
+    </div>
+  </footer>
 
 
 </body>
