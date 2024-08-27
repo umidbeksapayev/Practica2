@@ -1,10 +1,10 @@
 @font-face {
   font-family: Gilroy;
-  src: url("../assets/fonts/Gilroy-Light.otf");
+  src: url("../assest/fonts/Gilroy-Light.otf");
 }
 
 .footer_wrapper {
-  background-image: url("../assets/images/Rectangle\ 4.svg");
+  background-image: url("../assest/images/Rectangle\ 4.svg");
   background-repeat: no-repeat;
   color: white;
   padding-left: 13rem;
